@@ -1,0 +1,23 @@
+/*
+    Author     : Johannes Rudolph
+*/
+
+.leaflet-control-mouseCoordinate {
+    width: auto;
+    min-height: 30px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    background: #F4F4F4;
+	opacity: 0.5;
+    color: #000000;
+    padding: 6px 10px 6px 6px;
+}
+
+.leaflet-control-mouseCoordinate table {
+    width: 100%;
+}
+
+.coords {
+    width: 100px;
+}

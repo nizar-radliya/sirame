@@ -1,0 +1,69 @@
+body {
+	background: url(../img/back01.png); 
+	font-family: 'Roboto Slab', serif;
+}
+a {text-decoration: none}
+
+.table-form>thead>tr, .table-form>tbody>tr, .table-form>tbody>tr>td {
+	padding: 4px;
+	vertical-align: middle;
+	border: none;
+}
+.table-form-bordered>thead>tr, .table-form-bordered>tbody>tr, .table-form-bordered>tbody>tr>td {
+	padding: 4px;
+	vertical-align: middle;
+	border: solid #DDDDDD 1px;
+}
+.table-form .lbl {
+	text-align: right;
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td { text-align: center; background: #eee}
+
+.ctr {text-align: center}
+.rgt {text-align: right}
+
+.panel-heading > a, .panel-heading > small, .panel-heading > .small, .panel-heading > small > a, .panel-heading > .small > a {
+	text-decoration: none;
+}
+
+.panel-heading > .tombol-kanan {margin-top: -5px; float: right;}
+
+.panel-heading > .tombol-kanan > .btn-xs {	margin-top: 4px;}
+
+.top15 {margin-top: 15px;}
+.top25 {margin-top: 25px;}
+
+.top150 {margin-top: 150px;}
+
+
+/* NAVBAR */
+nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
+nav.navbar-findcond a { color: #f14444; }
+nav.navbar-findcond ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active { background: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover { border-color: #f14444; }
+nav.navbar-findcond li.divider { background: #ccc; }
+nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
+nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+
+/* button flat */
+.btn-sq-lg {width: 150px !important; height: 150px !important;}
+.btn-sq {width: 120px !important; height: 30px !important;font-size: 12px; margin-right: 10px; ;margin-top: 2px}
+.btn-sq-sm {width: 50px !important;height: 50px !important;font-size: 10px; margin-right: 8px;}
+.btn-sq-xs {width: 25px !important;height: 25px !important;padding:2px; margin-right: 6px;}
+
+/* glyphicon */
+.g2x{ font-size: 30px; } 
+.g3x{ font-size: 60px; } 
