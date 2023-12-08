@@ -7,6 +7,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
 
-php_value memory_limit 8000M
-php_value post_max_size 8000M
-php_value upload_max_filesize 1600M
+Header append X-Frame-Options: "SAMEORIGIN"
